@@ -1,6 +1,6 @@
 const fs = require('fs');
 const gulp = require('gulp');
-const webpack = require('webpack-stream');
+const webpack = require('webpack-stream');//此插件是通过webpack4打包js
 const named = require('vinyl-named');
 const browserSync = require('browser-sync').create();//静态服务器
 const reload = browserSync.reload;
